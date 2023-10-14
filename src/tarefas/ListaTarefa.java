@@ -1,3 +1,5 @@
+package tarefas;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -33,12 +35,12 @@ public class ListaTarefa {
 
     public static void main(String[] args) {
         ListaTarefa listatarefa = new ListaTarefa();
-        listatarefa.adicionarTarefa("Tarefa 1");
-        listatarefa.adicionarTarefa("Tarefa 2");
-        listatarefa.adicionarTarefa("Tarefa 3");
+        listatarefa.adicionarTarefa("tarefas.Tarefa 1");
+        listatarefa.adicionarTarefa("tarefas.Tarefa 2");
+        listatarefa.adicionarTarefa("tarefas.Tarefa 3");
 
         System.out.println("O numero total de elementos na lista é: " + listatarefa.obterNumeroTotalDeTarefas());
-        listatarefa.removerTarefa("Tarefa 2");
+        listatarefa.removerTarefa("tarefas.Tarefa 2");
         System.out.println("O numero total de elementos na lista é: " + listatarefa.obterNumeroTotalDeTarefas());
         listatarefa.obterDescricoesTarefas();
     }
