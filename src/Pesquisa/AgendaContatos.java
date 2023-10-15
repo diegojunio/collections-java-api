@@ -14,7 +14,7 @@ public class AgendaContatos {
         contatoSet.add(new Contato(nome, numero));
     }
 
-    public void exibirContatos(){
+    public void exibirContato(){
         System.out.println(contatoSet);
     }
 

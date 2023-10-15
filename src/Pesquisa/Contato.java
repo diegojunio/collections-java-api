@@ -46,7 +46,7 @@ public class Contato {
 
     public static void main(String[] args) {
         AgendaContatos agendaContatos = new AgendaContatos();
-        agendaContatos.exibirContatos();
+        agendaContatos.exibirContato();
 
         agendaContatos.adicionarContatos("Diego", 123456);
         agendaContatos.adicionarContatos("Diego Junio", 123456);
@@ -55,7 +55,7 @@ public class Contato {
         agendaContatos.adicionarContatos("Samuel", 987321);
         agendaContatos.adicionarContatos("Priscila", 955951);
 
-        agendaContatos.exibirContatos();
+        agendaContatos.exibirContato();
 
         System.out.println(agendaContatos.pesquiserPorNome("Diego"));
         System.out.println("Contato atualizado: " + agendaContatos.atualizarNumeroContato("Diego", 999999));

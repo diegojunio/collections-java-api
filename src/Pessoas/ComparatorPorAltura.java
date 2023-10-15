@@ -1,8 +1,6 @@
-package pessoas;
+package Pessoas;
 
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.List;
 
 public class ComparatorPorAltura implements Comparator<Pessoa> {
 

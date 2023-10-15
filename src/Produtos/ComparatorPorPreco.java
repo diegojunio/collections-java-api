@@ -1,4 +1,4 @@
-package produtos;
+package Produtos;
 
 import java.util.Comparator;
 class ComparatorPorPreco implements Comparator<Produto> {

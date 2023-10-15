@@ -1,7 +1,4 @@
-package pessoas;
-
-import java.util.ArrayList;
-import java.util.List;
+package Pessoas;
 
 public class Pessoa implements Comparable<Pessoa>{
     private String nome;

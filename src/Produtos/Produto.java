@@ -1,6 +1,5 @@
-package produtos;
+package Produtos;
 
-import java.util.Comparator;
 import java.util.Objects;
 
 public class Produto implements Comparable<Produto> {
