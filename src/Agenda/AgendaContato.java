@@ -4,30 +4,30 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AgendaContato {
-    private Map<String, Integer> agendaContaoMap;
+    private Map<String, Integer> agendaContatoMap;
 
     public AgendaContato() {
-        this.agendaContaoMap = new HashMap<>();
+        this.agendaContatoMap = new HashMap<>();
     }
 
     public void adicionarContato(String nome, Integer telefone){
-        agendaContaoMap.put(nome, telefone);
+        agendaContatoMap.put(nome, telefone);
     }
 
     public void  removerContato(String nome){
-        if(!agendaContaoMap.isEmpty()){
-            agendaContaoMap.remove(nome);
+        if(!agendaContatoMap.isEmpty()){
+            agendaContatoMap.remove(nome);
         }
     }
 
     public void exibirContatos(){
-        System.out.println(agendaContaoMap);
+        System.out.println(agendaContatoMap);
     }
 
     public Integer pesquisarPorNome(String nome){
         Integer numeroPorNome = null;
-        if(!agendaContaoMap.isEmpty()) {
-            numeroPorNome = agendaContaoMap.get(nome);
+        if(!agendaContatoMap.isEmpty()) {
+            numeroPorNome = agendaContatoMap.get(nome);
         }
         return numeroPorNome;
     }
